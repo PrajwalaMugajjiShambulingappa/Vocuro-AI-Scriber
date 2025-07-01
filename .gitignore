@@ -3,3 +3,17 @@ env/
 
 # dotenv
 .env
+
+# Node
+node_modules/
+package-lock.json
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
