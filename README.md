@@ -7,10 +7,10 @@ Vocuro is a lightweight and powerful AI-powered tool that converts speech to tex
 - 🧠 Conversation Summarization: Uses advanced language models to summarize the key points of any discussion.
 
 ## Setup
-- Create a virtual environment: 
-python -m venv venv
+### Create a virtual environment: 
+- python -m venv venv
 
-- Activate the Virtual Environment: 
-source venv/bin/activate (for MAC) 
-.\venv\Scripts\activate (for Windows)
+### Activate the Virtual Environment: 
+- source venv/bin/activate (for MAC) 
+- .\venv\Scripts\activate (for Windows)
 
