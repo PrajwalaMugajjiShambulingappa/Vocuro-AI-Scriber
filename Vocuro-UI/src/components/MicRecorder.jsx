@@ -57,7 +57,7 @@ const MicRecorder = () => {
     <div style={styles.container}>
       <div style={styles.inner}>
         <button onClick={handleMicClick} style={styles.micButton}>
-          {isRecording ? '🛑' : '🎤'}
+            <img src="public/mic.png" alt="Mic Icon" style={styles.micImage} />
         </button>
         <p style={styles.transcript}>{transcript}</p>
       </div>
@@ -84,13 +84,12 @@ const styles = {
   },
   micButton: {
     backgroundColor: '#fff',
-    border: 'none',
-    borderRadius: '50%',
-    width: '80px',
-    height: '80px',
-    fontSize: '2rem',
-    cursor: 'pointer',
-    boxShadow: '0px 0px 10px rgba(255,255,255,0.2)',
+    height: '300px',
+    width: '350px'
+  },
+  micImage: {
+    height: '300px',
+    width: '300px'
   },
   transcript: {
     maxWidth: '80%',

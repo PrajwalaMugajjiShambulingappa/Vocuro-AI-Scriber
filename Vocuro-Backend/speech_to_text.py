@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 CORS(app) 
-model = whisper.load_model("small")  # or "small", "medium", etc.
+model = whisper.load_model("small")
 
 @app.route('/transcribe', methods=['POST'])
 def transcribe_audio():
