@@ -17,3 +17,8 @@ package-lock.json
 # Python
 __pycache__/
 *.py[cod]
+
+# Session tracking files
+Vocuro-Backend/active_session.txt
+Vocuro-Backend/session_counter.txt
+Vocuro-Backend/transcripts/SessionID-*.txt
