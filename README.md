@@ -27,9 +27,10 @@ Vocuro is a lightweight and powerful AI-powered tool that converts speech to tex
 - npm run dev
 
 ## Run the backend: 
-- cd Vocuro-Backend
 - docker build -t vocuro-backend ./Vocuro-Backend
-- docker run -p 5001:5001 vocuro-backend
+- docker run -p 5001:5001 \
+  -v "$(pwd)/Vocuro-Backend/transcripts:/app/transcripts" \
+  vocuro-backend
 
 
 ## Open your browser at:

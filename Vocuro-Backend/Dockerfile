@@ -13,7 +13,7 @@ COPY . .
 
 # Install Python dependencies
 RUN pip install --upgrade pip
-RUN pip install -r ../requirements.txt
+RUN pip install -r requirements.txt
 
 # Preload Whisper model to cache it inside the container (optional)
 RUN python -c "import whisper; whisper.load_model('small')"

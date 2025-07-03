@@ -1,5 +1,3 @@
-# Add this to your Flask backend - FIXED TRANSCRIPTION ERROR
-
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import whisper
@@ -376,9 +374,9 @@ def transcribe_audio():
         if temp_audio_path and os.path.exists(temp_audio_path):
             try:
                 os.remove(temp_audio_path)
-                logger.info(f"🗑️ Cleaned up temp file: {temp_audio_path}")
+                logger.info(f"Cleaned up temp file: {temp_audio_path}")
             except Exception as cleanup_error:
-                logger.warning(f"⚠️ Failed to cleanup temp file: {cleanup_error}")
+                logger.warning(f"Failed to cleanup temp file: {cleanup_error}")
 
 # --- Main --- #
 if __name__ == '__main__':
