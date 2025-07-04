@@ -14,9 +14,6 @@ Vocuro is a lightweight and powerful AI-powered tool that converts speech to tex
 - source venv/bin/activate (for MAC) 
 - .\venv\Scripts\activate (for Windows)
 
-## Requirements 
-- pip install -r requirements.txt
-
 ## Install ffmpeg
 - brew install ffmpeg (MacOS)
 - Download ffmpeg from: https://ffmpeg.org/download.html and Add ffmpeg/bin to your system PATH.
