@@ -3,3 +3,22 @@ env/
 
 # dotenv
 .env
+
+# Node
+node_modules/
+package-lock.json
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Session tracking files
+Vocuro-Backend/active_session.txt
+Vocuro-Backend/session_counter.txt
+Vocuro-Backend/transcripts/SessionID-*.txt
